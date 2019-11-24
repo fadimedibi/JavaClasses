@@ -2,9 +2,14 @@ package com.class20;
 
 public class MySelf {
 	public static void main(String[] args) {
+		MySonMath son0=new MySonMath();
+		son0.name="Enes";
 		
 		 MySonMath son1 = new MySonMath();
-	        son1.name = "Ensar";
+	        son1.name = "Ensar";     
+	        
+	        
+	        
 	        son1.add1();
 	        son1.add2(2, 3);
 	        int result = son1.add3();
