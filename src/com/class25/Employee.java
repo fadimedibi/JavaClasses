@@ -2,8 +2,11 @@ package com.class25;
 
 public class Employee {
 	
+public static String companyName;	
 int salary;
-static String companyName;
+protected int employeeId;
+private int employeeSsn;
+
 
 void work() {
 	System.out.println("I work in "+companyName+" company");

@@ -22,11 +22,36 @@ public class Test {
 	System.out.println("------Creating an object of an ScrumTeam Class------");
 	Developer dev=new Developer();
 	dev.salary=130000;
+	dev.getPaid();
 	dev.work();
 	dev.code();
 	dev.artifacts="Sprint Backlog";
 	dev.ceremonies="Sprint Demo, Planning, Retro, Daily Stand Up";
 	dev.attendScrumMeetings();
+	dev.fixBugs();
+	dev.employeeId=101;
+	//dev.employeeSsn  not accessible
+	
+	System.out.println("------Creating an object of an Tester Class-----");
+	Tester test=new Tester();
+	test.salary=110000;
+	test.getPaid();
+	test.work();
+	test.artifacts="Sprint Backlog";
+	test.ceremonies="Sprint Demo, Planning, Retro, Daily Stand Up";
+	test.attendScrumMeetings();
+	test.findBugs();
+	
+	System.out.println("------Creating an object of an ProductOwner Class-----");
+	ProductOwner po=new ProductOwner();
+	po.salary=110000;
+	po.getPaid();
+	po.work();
+	po.artifacts="Sprint Backlog";
+	po.ceremonies="Sprint Demo, Planning, Retro, Daily Stand Up";
+	po.attendScrumMeetings();
+	po.prioritize();
+	po.AcceptAndReject();
 	
 	}
 
