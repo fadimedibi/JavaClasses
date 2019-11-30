@@ -2,7 +2,13 @@ package com.class25_1;
 
 public class Volume {
 	
-
+//Create 1 class in which create a methods that will calculate the volume (area) of 
+//	Rectangle
+//	Square
+//	Box
+//	Use separate class to test your code
+	
+	
 public static void area(int num1) {
 	System.out.println("area of a square with side of "+ num1+" is= "+num1*num1);
 }

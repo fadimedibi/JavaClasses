@@ -15,7 +15,7 @@ public class Task1 {
 		
 		//method without return:
 		
- void String  hello() {
+	void hello(String str) {
 		System.out.println("Hello");
 	}
 
@@ -39,6 +39,10 @@ public class Task1 {
 		
 
 }
+	private void hello() {
+		// TODO Auto-generated method stub
+		
+	}
 	//Create a method that will take a String and return whether String is palindrome or not. 
 	// Method should be available to all classes within your projects.
 	

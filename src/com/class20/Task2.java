@@ -24,7 +24,7 @@ public class Task2 {
 		
 		Task2 obj2=new Task2();
 		
-		boolean result1=obj2.method2("tras nicin sarte");
+		boolean result1=obj2.method2("tras nicin sart");
 		System.out.println(result1);
 	}
 	

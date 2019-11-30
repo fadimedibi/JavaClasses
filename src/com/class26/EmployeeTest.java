@@ -1,0 +1,22 @@
+package com.class26;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+	Employee emp=new Employee();
+	emp.salary=80000;
+	emp.getPaid();
+	
+	FullTime ft=new FullTime();
+		ft.salary=90000;
+		ft.bonus=10000;
+		ft.getPaid();
+		
+	Contructor ctr=new Contructor();
+	ctr.salary=100000;
+	ctr.getPaid();
+	ctr.overTime();
+
+	}
+
+}
