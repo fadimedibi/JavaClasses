@@ -10,19 +10,16 @@ package com.class31_;
 
 public class Car {
 	double carPrice;
-	
 	static String color;
 
 	public double calculateSalePrice() {
 		return carPrice;
 	}
+
 	public void display() {
-		System.out.println("Sale Price of "+Car.color+" vehicle is $"+ carPrice);
+		System.out.println("Sale Price of " + Car.color + " vehicle is $" + carPrice);
 	}
-	
-
 }
-
 class Truck extends Car {
 	int weight;
 
@@ -33,11 +30,8 @@ class Truck extends Car {
 			carPrice = carPrice - (carPrice * 0.2);
 		}
 		return carPrice;
-
 	}
-
 }
-
 class Sedan extends Car {
 	int length;
 
