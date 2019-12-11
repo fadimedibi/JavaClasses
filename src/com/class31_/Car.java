@@ -10,38 +10,55 @@ package com.class31_;
 
 public class Car {
 	double carPrice;
-	static String color;
+	String color;
+
+	public Car(double carPrice, String color) {
+		this.carPrice = carPrice;
+		this.color = color;
+	}
 
 	public double calculateSalePrice() {
 		return carPrice;
 	}
 
-	public void display() {
-		System.out.println("Sale Price of " + Car.color + " vehicle is $" + carPrice);
-	}
+//	public void display() {
+//		System.out.println("Sale Price of " + color + " vehicle is $" + carPrice);
+//	}
 }
+
 class Truck extends Car {
-	int weight;
+	double weight;
+	Truck(double carPrice, String color, double weight){
+		super(carPrice,color);
+		 this.weight=weight;
+	}
 
 	public double calculateSalePrice() {
+		double truckPrice;
 		if (weight > 2000) {
-			carPrice = carPrice - (carPrice * 0.1);
+			truckPrice = carPrice - (carPrice * 0.1);
 		} else {
-			carPrice = carPrice - (carPrice * 0.2);
+			truckPrice = carPrice - (carPrice * 0.2);
 		}
-		return carPrice;
+		return truckPrice;
 	}
 }
+
 class Sedan extends Car {
 	int length;
+	 Sedan(double carPrice, String color, int length){
+		 super(carPrice,color);
+		 this.length=length;
+	 }
 
 	public double calculateSalePrice() {
+		double sedanPrice;
 		if (length > 20) {
-			carPrice = carPrice - (carPrice * 0.05);
+			 sedanPrice = carPrice - (carPrice * 0.05);
 		} else {
-			carPrice = carPrice - (carPrice * 0.1);
+			sedanPrice = carPrice - (carPrice * 0.1);
 		}
-		return carPrice;
+		return sedanPrice;
 	}
 
 }
