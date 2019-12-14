@@ -11,7 +11,7 @@ public class ArrayListDemo {
 		arrayList.add("john");
 		arrayList.add("Jane");
 		arrayList.add("Jack");
-		
+		System.out.println(arrayList.isEmpty());
 		//to retrieve the value from arrayList
 		System.out.println(arrayList.get(1));
 
