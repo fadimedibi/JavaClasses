@@ -41,7 +41,7 @@ public class RecapSets {
 		System.out.println(set);	
 		
 		
-		System.out.println("----------------");
+		System.out.println("--------for each --------");
 		for(Double d1:set) {
 			System.out.println(d1);
 		}
@@ -60,7 +60,7 @@ public class RecapSets {
 		 String element=myList.get(2);
 		 System.out.println(element); 
 		
-		 
+		 // another way to create an Object of ArrayList by passing values to the constructor 
 		List<String>myList1=new ArrayList<>(lset);
 		
 		
