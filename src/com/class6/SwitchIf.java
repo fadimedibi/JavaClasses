@@ -6,9 +6,11 @@ public class SwitchIf {
 		/*
 		 * 7 weekdays if day==1--> Monday if day==2 --> Tuesday
 		 */
-​		int day = 6;
+
+		int day = 6;
 		String weekDay;
-​		if (day == 1) {
+
+		if (day == 1) {
 			weekDay = "Monday";
 		} else if (day == 2) {
 			weekDay = "Tuesday";
@@ -26,9 +28,9 @@ public class SwitchIf {
 			weekDay = "Invaid";
 		}
 		System.out.println(weekDay);
-​
+
 		day = 3;
-​
+
 		switch (day) {
 		case 1:// day==1
 			weekDay = "Monday";
@@ -55,7 +57,6 @@ public class SwitchIf {
 			weekDay = "Invaid";
 		}
 		System.out.println(weekDay);
-
 	}
 
 }

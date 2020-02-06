@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Task3 {
 
 	public static void main(String[] args) {
-			/*
+		/*
 		 * ask user to enter boolean value for sale if no sale --> I am not shopping if
 		 * sale --> check the price of the item based on the amount we will have to
 		 * calculate the price after discount if price < 20 --> apply 10% if price
@@ -16,17 +16,18 @@ public class Task3 {
 		Scanner inp = new Scanner(System.in);
 		System.out.println("Is there a sale going on? True or False");
 		boolean sale = inp.nextBoolean();
-		
-​		double price;
+
+		double price;
 		double discount;
 		double finalPrice;
-		
-​		if (!sale) {
+
+		if (!sale) {
 			System.out.println("I am not shopping");
 		} else {
-​			System.out.println("What is the actual price?");
+			System.out.println("What is the actual price?");
 			price = inp.nextDouble();
-​				if (price < 20) {
+
+				if (price < 20) {
 					discount = price * 0.10;
 					// finalPrice = price - discount;
 				} else if (price >= 20 && price < 100) {

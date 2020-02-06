@@ -1,6 +1,8 @@
 package com.class35;
 
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.TreeSet;
 
 public class MapIntro {
 
@@ -57,6 +59,22 @@ public class MapIntro {
 				boolean contains=map.containsValue("Seval");
 				System.out.println(contains);
 				System.out.println(map);
+				
+				
+				
+				TreeSet map3 = new TreeSet();
+				map3.add("one");
+				map3.add("two");
+				map3.add("three");
+				map3.add("four");
+				map3.add("one");
+			//	map3.clear();
+				map3.removeAll(map3);
+				Iterator it = map3.iterator();
+				while (it.hasNext() )
+				{
+				System.out.print( it.next() + " " );
+				}
 	}
 
 }

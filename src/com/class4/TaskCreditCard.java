@@ -1,4 +1,4 @@
-elseelse{package com.class4;
+package com.class4;
 
 import java.util.Scanner;
 

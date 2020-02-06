@@ -1,4 +1,4 @@
-spackage com.class31_;
+package com.class31_;
 
 public abstract class Marks {
 	// We have to calculate the percentage of marks obtained in three subjects (each

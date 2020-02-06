@@ -3,8 +3,10 @@ package com.class6;
 public class SwitchCaseEx {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+
 		int day=3;
+		String weekDay;
 		switch (day) {
 		case 1: // day==1
 			weekDay = "Monday";
@@ -32,5 +34,4 @@ public class SwitchCaseEx {
 		}
 
 	}
-
 }

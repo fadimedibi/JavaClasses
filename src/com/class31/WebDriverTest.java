@@ -3,15 +3,18 @@ package com.class31;
 public class WebDriverTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		WebDriver driver = new ChromeDriver();
+		driver.openBrowser();
+		driver.closeBrowser();
+		driver.maximazeWindow();
+		driver.findElement();
 		driver.takesScreen();
 
-		TakesScreenshot ts=new ChromeDriver();
-		ts.openBrowser();
-		ts.closeBrowser();
-		ts.maximazeWindow();
-		ts.findElement();
+		TakesScreenshot ts = new ChromeDriver();
 		ts.takesScreen();
+
+		ChromeDriver driverc = new ChromeDriver();
+		driverc.refresh();
 	}
 
 }

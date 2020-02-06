@@ -12,9 +12,9 @@ public class UncheckedException {
 		System.out.println(" I continue inside the try block");
 		}catch(ArithmeticException e) { //ArithmeticException e=new ArithmeticException();
 			System.out.println("I am in catch block");
-			//e.printStackTrace();
-			//System.out.println(e);
-			System.out.println(e.getMessage());
+			e.printStackTrace();
+			System.out.println(e);
+			//System.out.println(e.getMessage());
 			
 		}
 		

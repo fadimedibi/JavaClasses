@@ -1,9 +1,10 @@
 package com.class3;
 
-public class class3 {
 
 	public class ShorthandOperators {
-		
+		public static void main(String[] args) {
+			
+	
 		int num=1000;
 		num=num+1000;
 		System.out.println(num);
@@ -28,9 +29,8 @@ public class class3 {
 		
 		num4%=2; num4=4%2;
 				System.out.println(num4);
-
+		}
 		
 	}
-}
 	
 	

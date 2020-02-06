@@ -35,10 +35,10 @@ public class ScannerRepeat {
 	        System.out.println("False");
 	        
 	        
-	        Scanner scan=new Scanner(System.in);
+	        Scanner scan1=new Scanner(System.in);
 	        System.out.println("in");
 	        
-	       int in=scan.nextInt();
+	       int in=scan1.nextInt();
 	       if (in==1){
 	         System.out.println("January");
 	       }else if (in==2){
